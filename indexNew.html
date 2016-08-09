@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Apply Filter Effects to Music</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <img src="https://developers.soundcloud.com/assets/powered_by_large_white-de881ecad8561c2131e7676fa9e92738.png" class="float"></img>
+<div class="top-container">
+  <h1>Apply filter effects to music!</h1>
+  <h2>Draw the sliders and hear how it effects the sound. <br>But be careful with the volume, don't damage your<br> hearing/headphones/speakers!</h2>
+  <audio id="theSong" controls />
+</div>
+
+<div id="controls">
+  <p>
+    <select id="filtersDropdown">
+    </select>
+  </p>
+  <canvas id="canvas" width="400" height ="200"></canvas>
+  <p>
+    <input id="frequencySlider" title="Frequency" type="range" min="0" max="2000" value="1000" />
+    <input id="qSlider" title="Q" type="range" min="1" max="100" value="10" />
+    <input id="gainSlider" title="Gain" disabled type="range" min="1" max="100" value="20" />
+  </p>
+</div>
+    
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

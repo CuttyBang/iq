@@ -1,0 +1,43 @@
+body {
+	background-color: #141722;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+}
+.float {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.top-container {
+	color: #fff;
+	font-family: sans-serif;
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 40px;
+	border-bottom: 2px solid rgba(0, 0, 0, 1);
+	background-color: rgba(128, 128, 128, 0.16);
+}
+
+.top-container h1 {
+	font-size: 28px;
+}
+
+.top-container h2 {
+	font-size: 14px;
+	font-weight: 100;
+	opacity: 0.6;
+}
+
+#canvas {
+	border: 2px solid black;
+	background-color: rgba(128, 128, 128, 0.16);
+}
+
+input:disabled {
+  opacity: 0.1;
+}

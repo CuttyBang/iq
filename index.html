@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>iQ by CuttyBang</title>
+  <meta name="description" content="A Web Audio Q-Filter">
+  <meta name="author" content="Nathan McElwian">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="">
+  <link rel="apple-touch-icon" href="">
+
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/main.min.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <script type="text/javascript" src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+  <div class="site-wrapper">
+    <div class="site-wrapper-inner">
+      <section class="cover-container">
+        <div class="title stack">
+          <div class="logo col-md-2 col-md-offset-11">
+            <h1 class="title-logo">iQ</h1>
+            <p class="name-logo">by Cutty Bang</p>
+          </div>
+        </div>
+      </section>
+      <section class="cover-container">
+        <div class="plugin">
+          <canvas id="canvas" width="850" height="400"></canvas>
+          <canvas id="oscCanvas" width="850" height="400"></canvas>
+        </div>
+      </section>
+      <section class="cover-container">
+        <div class="controls cover">
+          <p class="slider-controls">
+            <input id="freq-slider" title="Frequency" type="range" min="20" max="5000" step="5" value="2500" />
+          </p>
+          <div class="dial-controls">
+            <input id="q-dial" title="Q" type="text" min="-10" max="10" value="0" class="dial" />
+            <input id="gain-dial" title="Gain"  type="text" min="-20" max="20" value="0" step="0.01" class="dial" />
+          </div>
+        </div>
+      </section>
+        <footer>
+        </footer>
+
+    </div>
+  </div>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src=/assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <script type="text/javascript" src="https://cdn.rawgit.com/aterrien/jQuery-Knob/master/dist/jquery.knob.min.js"></script>
+  <script type="text/javascript" src="./assets/js/vendor/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./assets/js/app.js"></script>
+</body>
+</html>
